@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABEA3B642E4260A4006743AE /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = ABEA3B632E4260A4006743AE /* SQLite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB09AC932E4238EA0070A3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB09AC7A2E4238E80070A3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB09AC812E4238E80070A3C2;
+			remoteInfo = MyTransaction;
+		};
+		AB09AC9D2E4238EA0070A3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB09AC7A2E4238E80070A3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB09AC812E4238E80070A3C2;
+			remoteInfo = MyTransaction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB09AC822E4238E80070A3C2 /* MyTransaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTransaction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB09AC922E4238EA0070A3C2 /* MyTransactionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTransactionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB09AC9C2E4238EA0070A3C2 /* MyTransactionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTransactionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AB84CEF52E5AA3C80023E9CC /* Exceptions for "MyTransaction" folder in "MyTransaction" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AB09AC812E4238E80070A3C2 /* MyTransaction */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AB09AC842E4238E80070A3C2 /* MyTransaction */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AB84CEF52E5AA3C80023E9CC /* Exceptions for "MyTransaction" folder in "MyTransaction" target */,
+			);
+			path = MyTransaction;
+			sourceTree = "<group>";
+		};
+		AB09AC952E4238EA0070A3C2 /* MyTransactionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyTransactionTests;
+			sourceTree = "<group>";
+		};
+		AB09AC9F2E4238EA0070A3C2 /* MyTransactionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyTransactionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB09AC7F2E4238E80070A3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEA3B642E4260A4006743AE /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB09AC8F2E4238EA0070A3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB09AC992E4238EA0070A3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB09AC792E4238E80070A3C2 = {
+			isa = PBXGroup;
+			children = (
+				AB09AC842E4238E80070A3C2 /* MyTransaction */,
+				AB09AC952E4238EA0070A3C2 /* MyTransactionTests */,
+				AB09AC9F2E4238EA0070A3C2 /* MyTransactionUITests */,
+				AB09AC832E4238E80070A3C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB09AC832E4238E80070A3C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB09AC822E4238E80070A3C2 /* MyTransaction.app */,
+				AB09AC922E4238EA0070A3C2 /* MyTransactionTests.xctest */,
+				AB09AC9C2E4238EA0070A3C2 /* MyTransactionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB09AC812E4238E80070A3C2 /* MyTransaction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB09ACA62E4238EA0070A3C2 /* Build configuration list for PBXNativeTarget "MyTransaction" */;
+			buildPhases = (
+				AB09AC7E2E4238E80070A3C2 /* Sources */,
+				AB09AC7F2E4238E80070A3C2 /* Frameworks */,
+				AB09AC802E4238E80070A3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AB09AC842E4238E80070A3C2 /* MyTransaction */,
+			);
+			name = MyTransaction;
+			packageProductDependencies = (
+				ABEA3B632E4260A4006743AE /* SQLite */,
+			);
+			productName = MyTransaction;
+			productReference = AB09AC822E4238E80070A3C2 /* MyTransaction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB09AC912E4238EA0070A3C2 /* MyTransactionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB09ACA92E4238EA0070A3C2 /* Build configuration list for PBXNativeTarget "MyTransactionTests" */;
+			buildPhases = (
+				AB09AC8E2E4238EA0070A3C2 /* Sources */,
+				AB09AC8F2E4238EA0070A3C2 /* Frameworks */,
+				AB09AC902E4238EA0070A3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB09AC942E4238EA0070A3C2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB09AC952E4238EA0070A3C2 /* MyTransactionTests */,
+			);
+			name = MyTransactionTests;
+			packageProductDependencies = (
+			);
+			productName = MyTransactionTests;
+			productReference = AB09AC922E4238EA0070A3C2 /* MyTransactionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB09AC9B2E4238EA0070A3C2 /* MyTransactionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB09ACAC2E4238EA0070A3C2 /* Build configuration list for PBXNativeTarget "MyTransactionUITests" */;
+			buildPhases = (
+				AB09AC982E4238EA0070A3C2 /* Sources */,
+				AB09AC992E4238EA0070A3C2 /* Frameworks */,
+				AB09AC9A2E4238EA0070A3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB09AC9E2E4238EA0070A3C2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB09AC9F2E4238EA0070A3C2 /* MyTransactionUITests */,
+			);
+			name = MyTransactionUITests;
+			packageProductDependencies = (
+			);
+			productName = MyTransactionUITests;
+			productReference = AB09AC9C2E4238EA0070A3C2 /* MyTransactionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB09AC7A2E4238E80070A3C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AB09AC812E4238E80070A3C2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AB09AC912E4238EA0070A3C2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AB09AC812E4238E80070A3C2;
+					};
+					AB09AC9B2E4238EA0070A3C2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AB09AC812E4238E80070A3C2;
+					};
+				};
+			};
+			buildConfigurationList = AB09AC7D2E4238E80070A3C2 /* Build configuration list for PBXProject "MoneyMap" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB09AC792E4238E80070A3C2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				ABEA3B622E4260A4006743AE /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AB09AC832E4238E80070A3C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB09AC812E4238E80070A3C2 /* MyTransaction */,
+				AB09AC912E4238EA0070A3C2 /* MyTransactionTests */,
+				AB09AC9B2E4238EA0070A3C2 /* MyTransactionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB09AC802E4238E80070A3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB09AC902E4238EA0070A3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB09AC9A2E4238EA0070A3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB09AC7E2E4238E80070A3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB09AC8E2E4238EA0070A3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB09AC982E4238EA0070A3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB09AC942E4238EA0070A3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB09AC812E4238E80070A3C2 /* MyTransaction */;
+			targetProxy = AB09AC932E4238EA0070A3C2 /* PBXContainerItemProxy */;
+		};
+		AB09AC9E2E4238EA0070A3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB09AC812E4238E80070A3C2 /* MyTransaction */;
+			targetProxy = AB09AC9D2E4238EA0070A3C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB09ACA42E4238EA0070A3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_KEY_CFBundleDisplayName[sdk=*]" = MoneyMap;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = MoneyMap;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB09ACA52E4238EA0070A3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_KEY_CFBundleDisplayName[sdk=*]" = MoneyMap;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = MoneyMap;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB09ACA72E4238EA0070A3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyTransaction/Preview Content\"";
+				DEVELOPMENT_TEAM = 3A7587MRG8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyTransaction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MoneyMap;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharm.MyTransaction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB09ACA82E4238EA0070A3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyTransaction/Preview Content\"";
+				DEVELOPMENT_TEAM = 3A7587MRG8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyTransaction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MoneyMap;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharm.MyTransaction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB09ACAA2E4238EA0070A3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharm.MyTransactionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTransaction.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTransaction";
+			};
+			name = Debug;
+		};
+		AB09ACAB2E4238EA0070A3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharm.MyTransactionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTransaction.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTransaction";
+			};
+			name = Release;
+		};
+		AB09ACAD2E4238EA0070A3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharm.MyTransactionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyTransaction;
+			};
+			name = Debug;
+		};
+		AB09ACAE2E4238EA0070A3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dharm.MyTransactionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyTransaction;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB09AC7D2E4238E80070A3C2 /* Build configuration list for PBXProject "MoneyMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09ACA42E4238EA0070A3C2 /* Debug */,
+				AB09ACA52E4238EA0070A3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB09ACA62E4238EA0070A3C2 /* Build configuration list for PBXNativeTarget "MyTransaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09ACA72E4238EA0070A3C2 /* Debug */,
+				AB09ACA82E4238EA0070A3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB09ACA92E4238EA0070A3C2 /* Build configuration list for PBXNativeTarget "MyTransactionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09ACAA2E4238EA0070A3C2 /* Debug */,
+				AB09ACAB2E4238EA0070A3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB09ACAC2E4238EA0070A3C2 /* Build configuration list for PBXNativeTarget "MyTransactionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09ACAD2E4238EA0070A3C2 /* Debug */,
+				AB09ACAE2E4238EA0070A3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ABEA3B622E4260A4006743AE /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABEA3B632E4260A4006743AE /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABEA3B622E4260A4006743AE /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AB09AC7A2E4238E80070A3C2 /* Project object */;
+}
